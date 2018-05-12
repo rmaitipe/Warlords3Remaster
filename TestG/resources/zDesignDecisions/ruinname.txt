@@ -1,0 +1,58 @@
+[RULES]
+
+40 [SYL1] [SYL2] [TITLE]
+65 [SYL1] [SYL3] [TITLE]
+75 [SYL1] [SYL2]
+90 [SYL1] [SYL3] [SYL2]
+100 [SYL1] [SYL3] 
+
+[TITLE]
+ Tower
+ Stone
+ Ruins
+ Cave
+ Crypt
+ Tomb
+henge
+
+[SYL1]
+Aern
+Gol
+Ghol
+Ghul
+Gul
+Khaz
+Drek
+Drak
+Van
+Krul
+El
+A'th
+Eith
+Ith
+Lor
+Bel
+
+[SYL2]
+drak
+dum
+kaz
+gor
+kor
+dor
+oria
+mor
+das
+zar
+zum
+
+
+[SYL3]
+a
+on
+an
+al
+or
+ar
+il
+i

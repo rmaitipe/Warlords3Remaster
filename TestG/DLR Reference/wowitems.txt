@@ -1,0 +1,33 @@
+Boots of Speed (550)            move +6
+Hunter's Bow (500)              strength +1, missile +1
+Liche's Crown (600)             fear +1
+Bane's Crown (2000)             fear +3, assassin +3
+Daggeril Blade (1000)           morale +1, income +3
+Selentine Crown (1200)          leadership +2
+Helm of Command (800)           leadership +1
+Sword of Sirian (750)           leadership +1, strength +1
+Ring of Power (800)             morale +1
+Ring of Life (580)              hits +1
+Ring of Air (1900)              Flight, Invisibility
+Silver Armour (420)             fortify +1
+Axe of Slaying (500)            strength +2
+Banner of Rage (700)            morale +1
+Elven Ring (375)                strength +1
+Orb of Balance (700)            morale +1
+Sword of Duty (795)             morale +1, move(g) +2
+Shining Wand (825)              leadership +1, move(g) +4
+Shadow Cloak (480)              Invisibility, hits +1
+Helm of Speed (1000)            Speed
+Gem of Boundry (985)            fortify +3
+Heart of Grak (1000)            siege +3
+Shield of Grak (1500)           fortify +2, fear +1
+Skeleton Key (1000)             fortity +1, siege +1
+Gloves of Skill (1000)          engineering +3
+Gauntlets of Flight (1350)      Flight, fear +2
+Crown of Grak (1500)            morale +3
+Fallen Crown (595)              chaos +2
+Red Eye Gem (900)               morale +2, view +2
+Staff of Ruin (900)             chaos +2
+Cloak of Air (1200)             Flight, move +5
+Darksword (950)                 strength +1, assassin +2
+Golden Chest (1000)             income +4

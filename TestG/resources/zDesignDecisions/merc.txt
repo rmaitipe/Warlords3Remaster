@@ -1,0 +1,30 @@
+CHANCE
+Normal Merc Chance: 8%
+Chance with Renown operating: N*8%
+
+FREE
+Chance of merc's being free: 5%
+Chance with Renown operating: 5+N*2%
+
+TYPE
+Normal: MERC1:30% MERC2:40% MERC3:30%
+Renown +1: MERC1:20% MERC2:40% MERC3:40%
+Renown +2: MERC1:10% MERC2:40% MERC3:50%
+Renown +3: MERC1:00% MERC2:40% MERC3:60%
+Renown +4: MERC1:00% MERC2:30% MERC3:70%
+Renown +5: MERC1:00% MERC2:20% MERC3:80%
+
+COST
+Cost is based on the strength of the Mercenary unit (from 1 to 9)
+When 'n' units are received, the cost is (n*cost)
+Normal: 10, 15, 20, 50, 100, 150, 200, 250, 500
+Renown +1: 5, 10, 15, 20, 50, 100, 150, 200, 250
+Renown +2: 5, 10, 15, 20, 50, 100, 150, 200, 250
+Renown +3: 1, 5, 10, 15, 20, 50, 100, 150, 200
+Renown +4: 1, 5, 10, 15, 20, 50, 100, 150, 200
+Renown +5: 1, 1, 5, 10, 15, 20, 50, 100, 150
+
+So you can see that when you have renouned +5, a 9 strength merc costs 150 gold each while a 5 strength costs 15 each. 
+Thus it makes sense to never have mercs with a higher strength than say 6 which at renouned +1 cost 100 gold and drop to 20 gold at renouned +5. 
+Assassins at 1 strength and 50% assassination are by FAR the super cheapest option in Merc 3 since each only only costs 1-5 gold regardless of 
+your renouned level.

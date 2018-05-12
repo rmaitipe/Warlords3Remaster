@@ -1,0 +1,263 @@
+Name            Str Hit Mov   Vis Mdl Tim Build Upk Setup Power         Combat
+
+* CURSE *
+Harpies         4   2   22f   3   22  2   350   2   200   Curse +4      Wood +1
+Ghosts          5   2   18f   2   20  2   450   2   300   Curse +4      Mrsh +1
+Spectres        8   2   22f   3   25  4   1000  10  750   Curse +6      Mrsh +1
+Undead Dragon   9   4   24f   3   15  5   1500  4   1000  Curse +5      None
+SPELL Evil Eye (5) Sha/2                                  Curse +5
+                       
+* POISON *             
+Giant Bees      2   1   38f   3   25  2   300   2   100   Poison +4     None
+Giant Spiders   4   1   20    2   40  2   350   3   150   Poison +3     City +1
+Mummies         3   4   14    1   20  2   400   10  250   Poison +3     Dsrt +2
+Giant Scorpions 5   2   22    2   20  3   500   3   350   Poison +6     Dsrt +3
+SPELL Evil Eye (5) Sha/2                                  Poison +5
+                          
+* DISEASE *               
+Ghouls          3   2   15m   2   18  1   300   3   150   Disease +2    Mrsh +1
+Plague Carriers 7   1   15    1   19  2   600   1   300   Disease +5    None
+SPELL Evil Eye (5) Sha/2                                  Disease +5
+                          
+* PARALYSIS *             
+Cockatrice      4   2   50hw  5   27  3   450   2   300   Paralysis +3  City +1
+Medusae         6   2   18    2   20  3   600   2   400   Paralysis +6  None
+SPELL Evil Eye (5) Sha/2                                  Paralysis +5
+                          
+* ACID *                  
+Green Slime     4   2   18m   1   20  2   100   1   50    Acid +2       Mrsh +1
+Black Dragons   9   3   26f   4   8   5   2000  14  1000  Acid +5       None
+SPELL Wrath of Kali (10) Mnk/4                            Acid(g) +1
+                          
+* LIGHTNING *             
+Imps            1   3   22f   4   25  1   300   4   200   Lightning +2  Wood +1
+Blue Dragons    9   3   26f   4   12  5   1800  14  1000  Lightning +5  None
+SPELL Chain Lightning (5) Wiz/1                           Lightning(g) +1
+SPELL Storm Song (3) Brd/1                                Lightning +2
+                          
+* ASSASSIN *              
+Gnolls          2   2   15    2   18  1   100   2   70    Assassin +1   None
+Gnoll Crossbows 4   2   15    2   18  2   300   4   150   Assassin +2   None
+Gnoll Cavalry   5   2   24    2   18  3   700   7   400   Assassin +4   None
+Assassin        1   1   18    3   15  3   600   15  450   Assassin +5   City +1
+HERO Ass                                                  Assassin +1/1
+                          
+* WARDING *               
+Skeletons       2   1   16m   2   35  1   75    1   50    Warding +2    Mrsh +2
+Rock Elementals 6   4   15h   1   26  4   1000  4   750   Warding +3    Hill +3
+Wolfriders      3   2   25w   3   55  2   150   3   100   Warding +3    Wood +1
+Wargs           4   2   25w   2   35  2   400   3   200   Warding +4    Wood +1
+Knights         5   2   18    1   18  2   450   4   300   Warding(g) +1 Open +2
+HERO Pal, War                                             Warding(g) +1/2
+HERO Ran                                                  Warding(g) +1/3
+                          
+* LEADERSHIP *            
+ALL HEROES                                                Leadership +1
+HERO Brd, Gen                                             Leadership +1/1
+HERO Alc, Bar, Mnk, Pal, Pri, Ran, Sum, Vam, War, Wiz     Leadership +1/2
+HERO Thi                                                  Leadership +1/3
+SPELL Heroism (6) Wiz/2                                   Leadership +1
+SPELL Song of Fortune (4) Brd/2                           Leadership +1
+                          
+* CHAOS *                 
+Reavers         6   2   19h   3   19  2   650   6   400   Chaos +1      Hill +1
+Minotaurs       5   3   16    2   20  3   600   5   400   Chaos +2      City +2
+Dwarf Mutants   5   3   15h   2   22  3   600   6   500   Chaos +2      Hill +1
+Giants          6   3   16h   2   20  3   400   8   250   Chaos +2      Hill +1
+Ice Demons      5   3   22    2   35  3   600   10  500   Chaos +2      Ice  +5
+Fire Elementals 7   2   32f   2   20  4   1100  4   600   Chaos +2      None
+Fire Demons     8   3   20    2   22  4   1000  10  700   Chaos +3      None
+Undead Beast    8   3   20    2   12  5   1400  9   900   Chaos +4      Ice  +1
+Slayer Knights  7   3   16    1   20  4   1300  10  800   Chaos +4      None
+Red Dragons     9   3   26f   4   10  5   1600  14  1000  Chaos +5      None
+HERO Sum                                                  Chaos +1/1
+HERO Bar, Nec, Sha, Thi, Vam                              Chaos +1/2
+SPELL Wrath of Kali (10) Mnk/4                            Chaos +1
+SPELL Chaos Seed (3) Nec/1                                Chaos +1
+SPELL Storm Song (3) Brd/1                                Chaos +1
+                          
+* MORALE *                
+Pegasi          5   2   24f   3   15  2   500   10  300   Morale +1     City +1
+Griffons        6   3   24f   3   25  3   750   8   500   Morale +1     Hill +1
+Ogres           4   3   16h   2   20  2   200   5   150   Morale +1     Hill +1
+Eagles          6   2   36f   4   18  3   750   6   500   Morale +1     None
+Dryads          2   2   18w   2   30  2   100   1   100   Morale +1     Wood +5
+Air Elementals  7   2   36f   3   16  4   1100  8   600   Morale +2     None
+Elven Cavalry   5   1   32w   3   30  2   250   4   200   Morale +2     Wood +1
+Archons         8   2   26f   4   15  4   800   12  700   Morale +3     None
+Silver Dragon   9   3   30f   4   13  5   1200  16  800   Morale +3     None
+Unicorns        6   2   28w   4   14  3   750   5   500   Morale +3     Wood +3
+Gold Dragons    9   3   26f   4   8   5   1500  14  1000  Morale +4     None
+HERO Brd, Pal                                             Morale +1/1
+HERO Bar, Gen, Pri, War                                   Morale +1/2
+SPELL Heroism (6) Wiz/2                                   Morale +1
+SPELL Mind Control (5) Mnk/1                              Morale +1
+SPELL Song of Battle (5) Brd/1                            Morale +1
+SPELL Wall of Force (3) Alc/2 Wiz/1                       Morale +1
+SPELL Bravery (3) Pal/2                                   Morale +1
+                          
+* FEAR *                  
+Zombies         2   3   13m   1   19  1   100   1   80    Fear +1       Mrsh +1
+Hellhounds      2   2   20    2   18  1   400   5   200   Fear +1       None
+Dark Pegasi     5   2   22f   3   14  2   500   10  300   Fear +2       Ice  +2
+Wights          4   2   16m   2   25  2   250   2   175   Fear +2       Mrsh +1
+Trolls          5   2   16mw  1   22  3   300   6   250   Fear +2       Wood +1
+Wraiths         5   2   24f   2   18  3   700   5   350   Fear +3       Mrsh +1
+Liches          8   2   16m   2   22  4   800   7   600   Fear +4       Mrsh +1
+Green Dragons   9   3   26f   4   10  5   1500  14  1000  Fear +5       None
+HERO Vam                                                  Fear +1/1
+HERO Pal, Sha                                             Fear +1/2
+SPELL Mind Control (5) Mnk/1                              Fear +1
+                          
+* FORTIFICATION *         
+Iceguard        7   2   18w   3   35  3   800   8   500   Fortify +1    Ice  +1
+HERO Alc                                                  Fortify +1/1
+HERO Brd, Gen                                             Fortify +1/2
+SPELL Song of Stone (4) Brd/2                             Fortify +1
+SPELL Wall of Force (3) Alc/2 Wiz/1                       Fortify +1
+SPELL Fortify (2) Pal/2 Pri/1 Ran/2 Sha/1                 Fortify +1
+CITY Village                                              Fortify +1
+CITY Town                                                 Fortify +2
+CITY Citadel                                              Fortify +3
+                          
+* SIEGE *                 
+Orogs           4   2   20h   2   20  2   125   4   100   Siege +1      Hill +1
+Catapults       2   1   16    2   22  2   250   4   100   Siege +2      City +2
+Cave Wyrms      6   4   20    1   20  4   1000  10  600   Siege +2      None
+Dust Wyrms      5   3   20h   1   20  4   700   8   600   Siege +3      City +1
+Treants         6   4   15w   2   20  4   1300  10  800   Siege +3      Wood +2
+Siege Engines   3   2   16    2   14  3   600   4   300   Siege +4      City +3
+HERO Thi                                                  Siege +1/1
+HERO Alc, Gen, Mnk                                        Siege +1/2
+SPELL Jihad (4) Sha/2                                     Siege +1
+                          
+* BANDING *               
+Barbarians      2   2   20h   3   25  1   75    1   75    Banding +2    Hill +1
+Goblins         1   2   22hmw 6   50  1   5     1   30    Banding +2    Wood +1
+Peasants        1   2   18    3   40  1   1     1   20    Banding +3    None
+Nightmares      3   2   25    3   15  2   500   2   400   Banding +4    None
+Giant Rats      1   1   18    2   15  1   10    1   50    Banding +6    None
+                          
+* MISSILES *              
+Ballistae       5   1   16    1   20  2   300   4   250   Missiles +1   City +3
+Dwarf Crossbows 2   3   15h   2   18  1   400   2   100   Missiles +2   Hill +1
+Archers         3   1   19    2   20  1   40    1   90    Missiles +2   None
+Centaurs        4   2   22w   3   20  2   500   4   200   Missiles +2   Wood +1
+Halflings       2   2   16w   2   25  1   200   2   100   Missiles +3   Wood +1
+Elven Archers   3   1   16w   3   15  1   350   2   140   Missiles +4   Wood +1
+Moonguard       6   2   18w   3   14  3   800   8   500   Missiles +4   Wood +1
+HERO Ran                                                  Missiles +3/2
+                          
+* SLAYER *                
+Elven Lords     6   2   30w   3   35  3   700   4   500   Demonslayer   Wood +1
+Knight Lords    6   3   18    1   20  3   700   6   400   Dragonslayer  Open +2
+Elven Infantry  4   1   24w   3   30  1   50    1   50    Dwarfslayer   Wood +1
+HERO Pal, Pri                                             Deathslayer/1
+HERO Sum                                                  Demonslayer/1
+HERO Bar, War                                             Demonslayer/2
+HERO Bar, War                                             Dragonslayer/2
+HERO Mnk, War                                             Dwarfslayer/2
+HERO Gen                                                  Gnollslayer/1
+HERO Nec                                                  Manslayer/1
+HERO Mnk, Vam                                             Manslayer/2
+HERO Ran                                                  Orcslayer/1
+SPELL Critical Strike (8) Mnk/3                           Dwarfslayer
+SPELL Critical Strike (8) Mnk/3                           Elfslayer
+SPELL Critical Strike (8) Mnk/3                           Manslayer
+SPELL Critical Strike (8) Mnk/3                           Orcslayer
+                          
+* TRAMPLE *               
+Clay Golems     4   2   16    1   25  2   400   2   300   Trample +1    City +1
+Elephants       8   3   16    3   30  4   800   5   500   Trample +1    None
+Stone Golem     5   2   16    2   20  3   650   1   400   Trample +2    City +1
+Iron Golem      6   3   16    2   17  4   1000  1   800   Trample +3    City +1
+SPELL Mighty Blow (2) Mnk/1                               Trample +1
+                          
+* ENGINEERING *           
+HERO Alc                                                  Engineering +2/1
+HERO War                                                  Engineering +5/4
+HERO Gen                                                  Engineering +1/1
+SPELL Song of Stone (4) Brd/2                             Engineering +2
+SPELL Dig (4) Pri/2                                       Engineering +2
+                          
+* RENOWN *                
+HERO Gen                                                  Renown +1/2
+HERO War                                                  Renown +1/1
+                          
+* SPEED *                 
+HERO Thi                                                  Speed/3
+HERO Bar, Ran                                             Speed/4
+                          
+* NECROMANCY *            
+HERO Nec                                                  Necromancy +1/1
+                          
+* QUESTING *              
+HERO Pal                                                  Questing/2
+                          
+* FLIGHT *                
+HERO Vam                                                  Flight/1
+HERO Sha                                                  Flight/3
+SPELL Phantom Steed (4) Nec/2 Pal/2                       Flight
+                          
+* MOVE BONUS *            
+HERO Thi                                                  Move Bonus/1
+                          
+* INCOME *                
+HERO Thi                                                  City Income +5/2
+SPELL Song of Fortune (4) Brd/2                           City Income +3
+                          
+* INVISIBILITY *          
+HERO Thi                                                  Invisibility/2
+SPELL Invisibility (4) Nec/2 Ran/2 Vam/1 Wiz/2            Invisibility
+                          
+* GROUP MOVE *            
+SPELL Song of Life (9) Brd/2                              Move(g) +4
+SPELL Heroism (6) Wiz/2                                   Move(g) +6
+SPELL Song of Battle (5) Brd/1                            Move(g) +5
+SPELL Jihad (4) Sha/2                                     Move(g) +4
+SPELL Bravery (3) Pal/2                                   Move(g) +2
+SPELL Haste (2) Pri/1 Ran/2                               Move(g) +4
+                           
+* GROUP HITS *             
+SPELL Song of Life (9) Brd/2                              Hits(g) +1
+SPELL Mighty Feast (8) Pri/2                              Hits(g) +1
+                            
+* UNIT STRENGTH *           
+SPELL Mighty Feast (8) Pri/2                              Strength +1
+SPELL Body Control (4) Mnk/1                              Strength +1
+                            
+* UNIT HITS *               
+SPELL Heroism (6) Wiz/2                                   Hits +2
+SPELL Body Control (4) Mnk/1                              Hits +1
+                            
+* UNIT MOVE *               
+SPELL Body Control (4) Mnk/1                              Move +4
+SPELL Phantom Steed (4) Nec/2 Pal/2                       Move +8
+                                   
+* UNIT VIEW *                      
+SPELL Body Control (4) Mnk/1                              View +1
+SPELL Augury (8) Sha/2                                    View +2
+                      
+* MISCELLANEOUS *     
+SPELL Berserker (14) Sha/3                                Medals(g) +1
+SPELL Life Drain (14) Vam/3                               Enemy Hits(g) -1 or 2
+SPELL Teleport (12) Alc/2 Sum/1 Wiz/2                     Teleport Group
+SPELL Shatter (11) Wiz/3                                  Destroy Items
+SPELL Summon Item (10) Alc/3                              Summon Item
+SPELL Banishment (10) Wiz/2                               Banish Armies
+SPELL Dispel Magic (9) Wiz/2                              Cancel Spells
+SPELL Augury (8) Sha/2                                    Reveal Map
+SPELL Mana Drain (5) Vam/3                                Drain Mana
+SPELL Bless (4) Pri/2                                     Bless Stack
+
+* SUMMONING *
+SPELL Lifesbane (20) Nec/3                                Summon many units
+SPELL Demonic Horde (20) Sum/4                            Summon many units
+SPELL Greater Demon (13) Sum/4                            Summon 1-3 Fire Demon
+SPELL Wraithcall (12) Nec/2                               Summon 1-2 Wraith 
+SPELL Minor Demon (10) Sum/3                              Summon 1-3 Ice Demon 
+SPELL Divine Aid (9) Pri/2                                Summon 1 Archon
+SPELL Summon Hound (7) Sum/2                              Summon 1-5 Hellhound 
+SPELL Reanimate (6) Nec/2                                 Summon 4-8 Skeleton 
+SPELL Create Golem (6) Alc/1                              Summon 1 Clay Golem
+SPELL Summon Imp (5) Sum/1                                Summon 1-3 Imp 

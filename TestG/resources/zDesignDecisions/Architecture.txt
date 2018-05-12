@@ -1,0 +1,21 @@
+Need Service classes to look up static game values.
+These need to be initialized properly
+Can be done with Spring or Native Java -> Go with Spring Boot
+
+
+Compiling a java program into an executable [duplicate]
+https://stackoverflow.com/questions/2011664/compiling-a-java-program-into-an-executable
+
+Need AI components
+https://gamedev.stackexchange.com/questions/79049/generating-tile-map
+1st do a iteration for land/water, then later iteration for subset of land tiles and inner water tiles
+
+Need tester class to test individual game mechanics
+->Try Combat
+
+ArmyStack class backed by dataStructure? use LinkedList 
+
+Maybe a factory method to create Units?
+switch vs if else ->Switch is faster
+
+Creating seperate classes for units not efficient

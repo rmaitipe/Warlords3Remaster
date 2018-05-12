@@ -1,0 +1,55 @@
+APPENDIX 3: SPELLS
+The list of spells for Darklords Rising is kept intentionally small to
+avoid having dozens of spells which no player will ever use. Of the ten
+hero classes included
+in the game, only four can cast a lot of spells:
+   wizards, priests, necromancers, shamans
+While 3 further classes get a few spells:
+   paladins, rangers, vampires
+The higher level a spell-caster obtains, the more effect his spell has:
+Level Bonus
+1-5    + 1
+6-8    + 2
+9-10   + 3
+
+Note: Some spells such as movement bonuses do not take effect until the start
+of the turn after they are thrown.
+ 
+Spell     Mana  Description             Wiz   Pri   Nec   Sha   Pal   Rng   Vmp
+Fortify   2  Adds +1 to the Fortification bonus in combat
+                                          x           x     x     x  
+Berserker 12 Makes a stack of armies fight as if they all had medals
+                                                      x        
+Reanimate 5  Creates +1 of the weakest Undead Regular Troop to accompany
+a hero
+                                                x                       x
+Strength  4  Adds +2 to the strength of the caster
+                                    x                 x        
+Bravery  3  Adds +1 Morale to a group
+                                                x           x    
+Invisibility   4  Hides a stack from view (unless it attacks)
+                                    x           x                 x     x
+Terror   3  Adds +1 Fear to a group
+                                                x      
+Haste 2  Adds +4 to the movement of a group (+8 & +12 at higher levels)
+                                    x     x                             x  
+Flight   4  Stack can fly           x           x           x        
+
+Wall of Force  6  Increases a unit's morale as well making it harder to
+attack.  
+                                    x                
+Heroism  8  Turns the caster into a mighty hero, increasing all of his
+stats.  
+                                    x                
+Chaos Seed  3  Adds +1 Chaos bonus to a group
+                                                x          
+Phantom Steed  4  Adds flying & +8 movement to the caster (becomes +16 &
++24 at higher levels)
+                                    x           x           x    
+Mighty Feast   8  Adds +1 hits to each army in the stack & +1 strength to
+the caster
+                                          x              
+Dig   4  Grants the caster a +2 Engineering bonus
+                                          x              
+Augury   8  Reveals portions of hidden/fogged map.
+                                          x     x     x

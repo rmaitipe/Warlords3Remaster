@@ -1,0 +1,33 @@
+Nazgul  "The Nazgul"  White(1) skull+flames  C/R  xxxxxxxxxxxxxx
+David   "Garten"      Red(4)   white flower  L/C  xxxxxxxxxxxxxxxxxxxx
+Barry   "Hyperion"    Green(5) black eye     U/L  xxxxxxxxxxxxxxxx
+Lucas   "Lwkians"     Sky(7)   blue cross    U/R  xxxxxxxxxxxxxxxxxxxxxxxxx
+Del     "InfiDel"     Black(8) grey fist     C/L  xxxxxxxxxxxx
+
+(Start Location is Lower-Center-Upper/Left-Center-Right)
+
+Map Size  128x160
+Cities    50
+Ruins     25
+Sites     40
+Islands   1
+Mountains Very High
+Rivers    Average
+Forests   Very High
+
+Raze On Capture
+See in Stacks On
+Hidden Map On
+Fog of War On
+Neutrals Active, Strong
+City Setup 3 each
+Army Setup 1 per city
+Combat Dice 20
+Diplomacy On
+Hidden Ruins On
+Quests On
+Spells On
+Merchants On
+Mercenaries On
+Timed Vectoring On
+Boat Penalty 12

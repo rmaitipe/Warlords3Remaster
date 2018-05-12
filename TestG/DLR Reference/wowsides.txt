@@ -1,0 +1,38 @@
+            Nazgul        Garten        Hyperion      Lwkians       InfiDel
+            White (P1)    Red (P4)      Green (P5)    Sky blue (P7) Black (P8)
+            skull+flames  white flower  black eye     blue cross    grey fist
+            Center Right  Lower Center  Upper Left    Upper Right   Center Left
+
+Army 1      Imps          Barbarians    Scouts        Goblins       Elven Inf 
+Army 2      Giant Rats    Heavy Cav     Pikemen       Dwf Runners   Giant Bats
+Army 3      Ghouls        Harpies       Heavy Inf     Catapults     Elven Arch
+Army 4      Wights        Knights       Elven Arch    Elven Arch    Knights   
+Army 5      Giant Scorp   Cockatrice    Heavy Cav     Nightmares    Giants    
+Army 6      Ballistae     Siege Eng     Siege Eng     Eagles        Eagles    
+Army 7      Nightmares    Gnoll Cav     Eagles        Moonguard     Liches    
+Army 8      Black Drag    Elephants     Elephants     Undead Drag   Cave Wyrms
+                                                                              
+Merc 1      Archers       Hellhounds    Dwf Runners   Dwf Crossbow  Barbarians
+Merc 2      Giant Rats    Reavers       Centaurs      Reavers       Giant Bees
+Merc 3      Goblins       Moonguard     Ballistae     Siege Eng     Assassin  
+                                                                              
+Ally 1      Cockatrice    Unicorns      Pegasi        Cockatrice    Barbarians
+Ally 2      Dark Pegasi   Wraiths       Air Elem      Minotaurs     Spectres  
+Ally 3      Minotaurs     Undead Bst    Fire Demon    Iron Golem    Undead Bst
+Ally 4      Undead Drag   Blue Drag     Green Drag    Black Drag    Black Drag
+                                                                    
+Ship        Boneship      Greatship     Greatship     Boneship      Warship
+                                                                    
+Hero 1      Barbarian     Bard          Warrior       Wizard        Vampire
+Hero 2      Vampire       Alchemist     General       Ranger        Barbarian 
+Hero 3      Alchemist     Wizard        Ranger        Priest        General
+Hero 4      Priest        Ranger        Paladin       Summoner      Wizard
+                                                                    
+Stk Limit   8             8             8             8             8
+Mercs       Yes           Yes           Yes           Yes           Yes
+Sell Item   No            No            Yes           No            Yes
+Init Gold   82            1             152           24            141
+                                                                    
+Mana Type   Grey          Grey          Grey          Grey          Grey
+Max Mana    15            12            12            10            15
+Init Mana   6             9             0             0             0

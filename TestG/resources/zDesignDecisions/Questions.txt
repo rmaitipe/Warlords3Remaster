@@ -1,0 +1,30 @@
+Important Abstract classes
+Effect/Item/BonusSite/MapObject/Faction
+
+Important classes
+Game/GameMap/GameLauncher/City/ArmyStack
+
+How to handle items?
+Can be held by heros/in Ruins/Merchant but also on ground
+Item extends MapObject
+
+How to resolve BonusSite with City?
+Each Faction turn cycle through bonusSites and add bonuses to nearest city belonging to Faction
+Gold can be directly added to faction
+Move/Prod turn bonus? City has currentArmyProd(ArmyUnit) field which can be modified with bonuses
+
+ArmyStack movement 
+for each tile check events -> ports/shrines etc
+OnClickEventLitener
+	coordinates field + OnLoactionEventListener(Observer Design Pattern)
+                    
+
+Faction has owned cities list or cities has faction?
+Cities has faction because ownership can change
+
+Quest Reward Condition
+At turn start for the faction, pick the hero with quest and see if quest is completed
+
+Army Battles
+Get units from Armystack and place in queue and for units battling out - unpack and manage stats seperately, 
+unit can lose hits/str during battle but gets restored if it survives the battle.

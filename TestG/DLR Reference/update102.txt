@@ -1,0 +1,252 @@
+Warlords 111 - Darklords Rising
+
+1.02 Update
+
+Additions
+
+BUG FIXES
+
+1.02 is a small patch to fix 2 important bugs in 1.01 (as well as
+  introduce two new minor features):
+a) Summoned Armies no longer drown over water.
+b) Curse now works correctly.
+c) No more "Super Mercs" can be obtained in cities near shrines.
+
+NEW RULES
+
+QUESTS
+"Slay Units" quests only accumulate 1/2 point per unit killed while
+  DEFENDING.
+
+RANDOM MAPS
+Barracks & Ranger Towers (along with different castles) are now
+  available (50% of the time) in Random Maps.
+
+1.01 Update
+
+Additions
+
+NEW RULES
+
+COMBAT
+4hp Fliers are no longer immune to archery.
+Archers gain a +3 bonus to strength when fighting fliers.
+Curse now takes place before poison/disease/paralysis, which means that
+  blessed units can be cursed AND poisoned in the same combat.
+Poison now subtracts up to 2 points from an army's strength, not 1.
+Note: Disease is applied before the Banding bonus.  This makes 1 Str
+  armies like Peasants and Rats immune to Poison even though their
+  Banding bonus may give them Strength greater than 1.
+
+CUSTOM ARMY SETS
+It is now increasingly difficult to put Dragons into a custom set in any
+  location except Ally-4, maybe Ally-3, and maybe one Regular Slot.
+Armies which are called forth from summoning spells no longer need to be
+  in your army set.
+
+QUEST REWARD
+Rewards of allies & Merc's are now based on production times.  You might
+  get 12 turns of production from an Average quest which would be 2
+  Dragons, 3 Fire Demons, or 4 Griffons.  This should reduce the
+  proliferation of Dragons and other powerful allies, which has marred
+  many online games.
+
+MISCELLANEOUS BUG FIXES / FEATURES
+Capture the flag items no longer appear in 2 places (on their owner and
+  in a ruin!).
+A secondary spellcaster in a stack can now cast Teleport on his whole
+  group by using the "Re-group" button on the "Cast Spell" screen.
+Produces an optional log file to aid in detection of cheaters (you
+  access this via "Darklord.exe -log").
+Miscellaneous combat bugs fixed :
+  Warding now waorks for attackers AND defenders.
+  Acid/Lightning getting multiple shots vs assassin and missile troops
+    has been fixed.
+  Trample "appearing" to do more points of damage than it actually does
+    is fixed.
+  Invisible armies popping up after a combat is over.
+  Paralyzed troops now get ALL 5 movement points back when blessed.
+  Quest reward stealing bug fixed.
+  Text & data errors in some of the Campaigns fixed.
+  "Speed" now only gives a group 150% movement allowance, not 200%.
+  You can now change a player's details in Email games (from the Email
+    Stat's Dialog).
+  The Right-Click popup-bonus-display has Slayer Info + Group Warding/
+    Lightning/Acid/Life Drain info.
+  Right-Click hero-popup (from the stack palette) now lists more
+    abilities & spells (7 instead of 4).
+
+NEW ABILITIES
+These abilities are used in conjunction with the hero balancing.  Some
+  are in the form of spells, other are buyable abilities.
+
+Group Warding +N - Provides a warding bonus to every army in the stack.
+  Goes no higher than +3.
+Life Drain +N - Subtracts from the hit points of every enemy army in
+  combat.  As a spell effect, this is +1 for levels 1-8 & +2 for levels
+  9-10.
+Mana Drain - Drains a point of mana income from every other side, adding
+  it to your own.
+Questing  - Gain double XP from quests.
+Group Lightning +N - Provides a lightning ability for every unit in the
+  stack.
+Group Acid +N  - Provides an acid ability for every unit in the stack.
+Necromancy +N - After a successful combat the victor raises some undead
+  (Skeletons, Wights, Wraiths, Undead Beasts, or Undead Dragons)
+  automatically from the battlefield.  The number & quality of the
+  creatures depends on the hero's level of Necromancy.
+Renown +N - Any hero with Renown, when starting his turn in a city, has
+  a much higher chance of attracting merc's which are better quality &
+  cheaper (depending upon his level of Renown).  Note that you must have
+  "Get Mercenaries" enabled to receive this reward.
+Shatter - Breaks items within a given radius.  The power of the item
+  which can be broken, is dependent upon the level of the caster of the
+  Shatter spell.
+Dispel Magic - Dispels spells within a given radius.  The affected
+  spells must be on a hero of level less than the level of the caster.
+Banish - Dispels any summoned creatures within a given radius.  The
+  turn-production-time of the creature to be dispelled must be less than
+  or equal to half the level of the caster.
+Slayer - There are 8 slayer abilities, one for each of the following
+  groups of creatures: Dragonslayer, Demonslayer, Deathslayer,
+  Manslayer, Dwarfslayer, Elfslayer, Gnollslayer.  When a hero has a
+  slayer ability, then EVERY unit in his stack gets a chance to SLAY an
+  enemy of a given type on a successful strike in combat.  Chances are
+  based on the hero's level: 1-4:10%, 5-7:20%, 8-9:30%, 10:40%.  A
+  slayer Item increases this chance by +20%.  A slayer Spell increases
+  it by +10/20/30% depending upon the level of the caster.
+
+HERO BALANCING
+
+SHAMAN, ALCHEMIST, THIEF & BARD have been left alone.
+
+PALADIN
+Loses: Hits +1, Strength +1, View +2
+Gains: Deathslayer (1pt), Group Warding +1 (2pt), Questing (2pt)
+Stats: Strength 5,  Move 18
+
+BARBARIAN
+Loses: Move Bonus, Strength +2, Fear +1
+Gains: Demonslayer (2pt), Dragonslayer (3pt), Strength +3 (1pt)
+Stats: Strength 6
+
+WARRIOR
+Loses: Move Bonus, Strength +1, Hits +1, View +2, Fear +1, Chaos +1
+Gains: Renown +1 (1pt), Demonslayer (2pt), Dragonslayer (2pt),
+  Dwarfslayer (2pt),  Strength +2 (1pt), Warding +1 (2pt)
+Stats: Strength 5, Now has the fastest advancement rate of any hero
+
+GENERAL
+Loses: Move Bonus, Strength +1, Fear +1
+Gains: Renown +1 (2pt), Gnollslayer (2pt), Siege +1 (2pt)
+Stats: Move 18, Faster advancement, More medals for armies who travel
+  with a general
+
+RANGER
+Loses: Move Bonus, Hits +1, Strength +1, View +2
+Gains: Missiles +3 (2pt), Hits +1 (1pt), Orcslayer (1pt), Group Warding
+  +1 (3pt) 
+Stats: Strength 5, Move 22
+
+VAMPIRE
+Loses: Strength +1, 'Reanimate', Flying (3pt), Assassin +1
+Gains: 'Life Drain' (3pt), 'Mana Drain' (3pt), Manslayer (2pt), Flying (1pt)
+Stats: Strength 8
+
+PRIEST
+Loses: View +2, 'Bravery', 'Augury'
+Gains: 'Bless' (2pt), 'Divine Aid' (2pt), Deathslayer (1pt)
+Stats: -
+
+SUMMONER
+Loses: View +2, 'Terror', Chaos +1 (2pt)
+Gains: Demonslayer (1pt), Chaos +1 (1pt), 'Demonic Horde'
+Stats: Hits 2
+
+MONK
+Loses: Strength +1, Hits +1, Move Bonus, Fear +1
+Gains: Manslayer (2pt), Elfslayer (1pt), Dwarfslayer (2pt), 'Critical
+  Strike' (3pt), 'Wrath of Kali' (4pt)
+Stats: -
+
+NECROMANCER
+Loses: 'Terror', 'Flight'
+Gains: Manslayer (1pt), Necromancy +1 (1pt)
+Stats: Strength 4
+
+WIZARD
+Loses: 'Strength, 'Flight', 'Haste', 'Phantom Steed', Hits +1
+Gains: 'Chain Lightning' (1pt), 'Dispel Magic' (2pt), 'Banishment' (2pt),
+  'Teleport' (2pt), 'Shatter' (3pt)
+Stats: -
+(NB: There's also a favorable modification to the 'Heroism' & 'Wall of
+  Force' spells)
+
+SPELL MODIFICATIONS
+
+Heroism: Move +6 (grp), Morale +1, Leadership +1, Hits +2 [6 mana]
+Teleport: Now costs 12 mana
+Wall of Force: Now costs 3 mana
+
+NEW SPELLS
+
+Bless: [4 mana] (Priest) Blesses all units in the stack
+Divine Aid: [9 mana] (Priest) Summons 1 Archon
+Life Drain: [14 mana] (Vampire) Reduces all enemy hits by 1
+Mana Drain: [6 mana] (Vampire) Leech 1 point from every enemy's mana
+  income
+Demonic Horde [20 mana] (Summoner) Summons a horde of Imps, Hellhounds,
+  Ice & Fire Demons
+Critical Strike [8 mana] (Monk) Manslayer, Elfslayer, Dwarfslayer,
+  Orcslayer
+Wrath of Kali [10 mana] (Monk) Group Acid +1, Chaos +1, Assassin +2,
+  Poison +3
+Banishment [10 mana] (Wizard) Banished summoned armies in an 8 square
+  radius
+Shatter  [11 mana] (Wizard)  Shatter items in an 8 square radius
+Dispel Magic [9 mana] (Wizard) Close down all spells in an 8 square
+  radius
+Chain Lightning [7 mana] (Wizard) Group Lightning +1
+
+NB: Shatter, & Dispel will affect any items items or spells, even
+  friendly ones - EXCEPTING for items and spells which are owned by the
+  Hero casting the Shatter/Dispel spell.  Banishment affects all armies,
+  friendly or otherwise, even ones in the current group.
+Shatter / Dispel & Banish have an 8 square radius, this radius does not
+  alter for higher level heroes.
+
+ARMY BALANCING
+
+The following changes have been made to armies
+
+Archers: Cost 40
+Archons: Cost 800
+Assassins: Upkeep 15
+Barbarians: Banding +2, Move 20
+Black Dragon: Cost 2000
+Blue Dragon: Cost 1800
+Cave Wyrms: Siege +2, Hits 4
+Dust Wyrms: Cost 700, Move 20
+Elf Cavalry: Morale +2, Move 32
+Elf Infantry: Dwarfslayer, Move 24
+Elf Lords: Demonslayer, Move 30
+Fire Demon: Cost 1000
+Giants: Cost 400
+Goblins: Banding +2, Cost 5, Move 22, View 6
+Heavy Cavalry: Str 5, Move 24, Cost 200
+Hellhounds: Upkeep 5
+Ice Demon: Cost 600
+Knight Lords: Dragonslayer
+Knights: Group Warding +1
+Liche: Str 8
+Light Cavalry: Str 4, Move 30, Cost 150
+Minotaurs: Chaos +2
+Ogres: Cost 200, Hits 3
+Orcs: Cost 10
+Orogs: Cost 125
+Rats: Banding +6, Cost 10
+Reavers: 2 Turns, Move 19, Hits 2
+Red Dragon: Cost 1600
+Rock Elemental: Warding +3
+Treants: Str 6, Move 15
+Trolls: Cost 300

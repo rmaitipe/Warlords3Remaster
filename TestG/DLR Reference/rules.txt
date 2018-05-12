@@ -1,0 +1,178 @@
+W3:DLR RULES
+
+Attacking always costs 2 MP, regardless of how much it would normally
+cost you to enter the terrain.  However, you can attack if you only have
+1 MP remaining.
+
+If fog of war is on, then the fog is not removed from spaces which
+should be newly visible after a successful attack.
+
+Exploring a ruin uses no MP, but you can't do it if any unit in your
+group has 0 MP remaining.
+
+Up to 2 MP left over at the end of your turn will be added to the unit's
+movement allowance on the next turn.  Newly built units also get the 2
+MP bonus.  Summoned units, allies, and mercenaries arrive with a full
+movement allowance but no bonus.
+
+Group warding only uses the value of the single best unit in the stack
+(the combat.txt file is somewhat misleading on this point).
+
+In the Cities Report, if you select the History option, for any city
+that is currently visible on your map, you can see who controlled it on
+each previous turn of the game (even before you explored the map to
+reveal it).
+
+Ability Points may be saved unused and then used at any time.
+
+When APs are used to increase Movement, there is no increase in MPs
+until the next turn.  Similarly, when a spell is cast which increases
+Movement, there is no increase in MPs until the next turn.
+
+Spells, items, or hero abilities that increase group movement are
+effective only at the start of the turn.  Any unit grouped (or stacked?)
+with the hero at the start of the turn will receive the benefit, even if
+it ungroups during the turn.  A unit not with the hero at the start of
+the turn will receive no benefit, even if it groups with the hero during
+the turn.
+
+If multiple spells giving group move bonuses are in effect, only the
+highest bonus applies.
+
+Casting a duration spell (as opposed to an instant spell like summoning)
+subtracts the cost in Mana from your total immediately (and you must
+have enough).  On each subsequent turn that the spell remains in effect,
+the same cost is subtracted from your mana income and (if that is not
+enough) from your mana total.  If you don't have enough mana then the
+spell is cancelled.
+
+Each mana crystal increases your mana total by 1, and permanently
+increases your mana income and mana limit by 1.  Hidden ruins
+(Strongholds) can contain up to 10 mana crystals.
+
+When moving you can "hop" directly over friendly or allied units, paying
+the normal MP cost for the space they occupy.
+
+Invisible units can be detected by moving the cursor over them, as can
+units in areas covered by "fog of war".  An invisible stack becomes
+visible for the rest of your turn if you attack it.  An invisible hero
+in an area visible to you will show up in Hero Levels if you select All
+Heroes.
+
+If an enemy hero is in the visible area of your map, then you can get
+some information about it by selecting Hero Levels, then All Heroes.
+Right-click on the enemy hero in the listing for additional info.  This
+works even if the enemy hero is inside a city and See in Cities is off,
+and also even if the enemy hero is invisible.  (If the hero is
+invisible, then the right-click will show an eyeball symbol.)
+
+All water spaces (including those which are part land, such as coasts
+and lakes) are connected to one another if they are adjacent: a unit at
+sea can move from any water space to an adjacent water space even if the
+water in those two spaces does not appear to connect.
+
+Quests to kill an enemy leader or enemy units reveal the location of the
+enemy leader or units on the Show Quest map, even if you could not
+normally see those units.  (Perhaps this even includes invisible heroes
+and units?)  Quests to explore cities, ruins, or sites can reveal the
+location or direction of those landmarks even if they would not normally
+be visible.
+
+Stacks with Woods move bonus can move through Woods+Hills for only 2 MP,
+while stacks with Hills move bonus pay the full 5 MP.  Probably a
+similar statement applies to other combinations such as Woods+Marsh.
+
+Port spaces cost only 1 MP for non-flying units to enter, even if those
+units are on land at the time.  The path-finding algorithm doesn't seem
+to know about the reduced cost for ports.
+
+Some water spaces cost 2 MP for naval units to enter, rather than the
+normal 1 MP.  (I have only seen this in constructed scenarios.  I
+believe it doesn't happen on random maps.)
+
+Some spaces of razed cities cost 5 MP to enter; others cost 2 MP.  I
+haven't detected a pattern, or a way to tell the difference except by
+trial movement.
+
+If flying units are stacked with ships, then the entire stack moves
+through normal water spaces at a cost of 1 MP.  This can be used to
+accelerate the movement of flying units.  If the stack moves to land,
+all units pay the normal cost to enter the land space, but only the
+units on ships pay the boat penalty.
+
+In order for a unit on a ship to move to a land (not coast) space, it
+has to have enough movement points remaining to pay the cost to enter
+the land space that it is moving to.  However, it doesn't have to be
+able to pay the boat penalty.
+
+The cost to move into the space of a ruin is the cost of entering the
+underlying terrain.  The terrain type is generally obvious, but can
+sometimes be difficult to determine except by experiment.
+
+If a city is attacked, all units in the city receive the bonuses due to
+any unit in the city, regardless of which space it is in.  Units in
+different spaces of the city can combine for the banding bonus.  Units
+in a city (or on a site or ruin?) can receive a terrain bonus if the
+underlying terrain is of the correct type.
+
+Bridge spaces do not count as "open" for terrain bonuses.  (Is coastal
+terrain a separate terrain type?)
+
+Mercenary or ally reward for easy quest is 5 turns production (five
+1-turn units, or two 2-turn units, or one 3+-turn unit) of mercenary
+slot 1 or ally slot 1.  Mercenary or ally reward for medium quest is 12
+turns production of slot 1/2/3 unit with probability 33%/33%/33%.
+Reward for hard quest is 20(?) turns production; ally comes from slot
+1/2/3/4 with prob 16%/16%/33%/33%, mercenary distribution is unknown.
+(Note that these represent changes from the printed rulebook.)
+
+When a new hero for hire is accompanied by allies, those allies are
+selected from slot 1/2/3/4 with probability 40%/30%/20%/10%.
+
+If you hire mercenaries, summon units, or receive quest rewards in
+cities with site bonuses, those site bonuses also apply to the
+mercenaries or summoned units!
+
+If a site is contributing its bonus to a city which is razed, the bonus
+is transferred to the next closest city.
+
+When all cities are exposed (at least partially out of black) then the
+whole map will be revealed.
+
+When there are 1000 armies on the map, no more will be built or received
+until some are eliminated.  (So disband a few before completing your
+quest!)
+
+Spells generally have double effect when caster is level 6+.  Triple
+effect when level 9+?  Some spells increase in different ways.
+
+Banishment is mostly broken: it only banishes (level of caster) number
+of summoned units, random chosen from among those in range.
+
+New hero comes from slot 1/2/3/4 with probability 40%/30%/20%/10%.  Cost
+of new hero is 300-700 if you have no heroes, 600-1600 if you do.  If
+you have enough gold, the base chance of a new hero arriving is 50% if
+you have no heroes, 20% if you do.  Chance is increased by 1% for each
+50gp over 1000gp, and reduced by 5% for each hero you already have.
+There is no limit on how many heroes you can have.
+
+Mercenary cost depends only on Strength of the unit.  (Standard cost for
+strength 1/2/3/4/5/6/7/8/9 is 5/10/15/20/50/100/150/200/???.)  Each
+level of Renown gives +8% chance of receiving mercs with that hero (if
+the hero is in a city), and reduces cost.  If you have more than one
+hero with Renown, only one is effective (random choice?).
+
+Allies and mercenaries have no cost for upkeep?  And may not receive
+medals?  (Neither of these checked.)
+
+When playing with Diplomacy On, if all surviving players have Alliance
+status with one another, the game will end in alliance victory.
+
+A quest to recover an item which is in a hidden ruin will reveal that
+ruin to the player.
+
+Summoned units always seem to fight first, regardless of fight order and
+regardless of the fact that when the stack is formed they seem to be in
+a different position.  (This applies only to summoned units that aren't
+in your army set.  Summoned units of types in your army set will fight
+with the chosen fight order for that army type.)

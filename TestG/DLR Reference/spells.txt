@@ -1,0 +1,56 @@
+#DARKLORDS RISING Version 1.02 SPELL LIST
+#Spell (Cost, Hero)      Spell Effect
+
+Lifesbane (20,Nec)     6-10 Skeletons, 1-2 Wraiths, 1-4 Wights, 0-1 Undead Beast	,This spell summons a mixed group of undead to fight with their master.
+Demonic Horde (20,Sum) 2-4 Imps, 1-3 Ice Demons, 2-4 Hellhounds, 1-3 Fire Demons
+Berserker (14,Sha)      +1 medals (group)									,The Berserker spell allows armies to roll 2 dice in combat and choose the highest, as if they all had medals.
+Life Drain (14,Vam)     -1 hits to enemy group (-2 if level 9+)
+Greater Demon (13,Sum)  Summon 1-3 Fire Demons.								,This spell conjures a powerful Fire Demon who will join the caster.
+Wraithcall (12,Nec)     Summon 1-2 Wraiths.									,This spells summons wraiths from the nether planes
+Teleport (12,Wiz/Sum/Alc) Teleport to any friendly city.					,This spell sends the caster and his troops to any friendly city.
+Shatter (11,Wiz)        Destroy all items in 8 square radius.
+Wrath of Kali (10,Mon)  +1 acid (group), +1 chaos, +2 assassin, +3 poison
+Summon Item (10,Alc)    Summon nearby Item.									,This spell summons an item to the caster (if any are available).
+Minor Demon (10,Sum)    Summon 1-3 Ice Demons.								,This spell summons a minor Ice Demon who will join the caster.
+Banishment (10,Wiz)     Banish summoned armies in 8 square radius.
+Song of Life (9,Brd)    +1 hits (group), +4 move (group)					,This song invigorates all allies who hear it.
+Divine Aid (9,Pri)      Summon 1 Archon.
+Dispel Magic (9,Wiz)    Close down all spells in 8 square radius.
+Critical Strike (8,Mon) Manslayer, Elfslayer, Dwarfslayer and Orcslayer.
+Augury (8,Sha)          Reveal Map, +2 view									,This spell reveals a section of hidden or foggy map around the caster.
+Mighty Feast (8,Pri)    +1 strength, +1 hits (group)						,This spell increases the Hits of all troops in a stack by 1 and increases the caster's strength by 1 also.
+Summon Hound (7,Sum)    Summon 1-5 Hellhounds.								,This spell calls forth a Hellhound to do the caster's bidding.
+Reanimate (6,Nec)       Summon 4-8 Skeletons.								,This spell summons a legion of skeletons to the caster's side.
+Create Golem (6,Alc)    Summon 1 Clay Golem.								,This spell creates a simple Clay Golem which obeys the caster.
+Heroism (6,Wiz)         +1 leadership, +2 hits, +1 morale, +6 move (group)	,This spell turns the caster into a mighty hero, increasing all of his stat's.
+Chain Lightning (5,Wiz) +1 lightning (group)
+Evil Eye (5,Sha)        +5 poison, +5 disease, +5 paralysis, +5 curse     	,The enemy are poisoned, diseased, paralyzed and cursed!
+Mind Control (5,Mon)    +1 fear, +1 morale									,This spell allows the caster to control the minds of both enemies and allies alike.
+Mana Drain (5,Vam)      Leech 1 mana from each enemy's mana income.
+Song of Battle (5,Brd)  +1 morale, +5 move (group)							,This song uplifts the spirits of an army.
+Summon Imp (5,Sum)      Summon 1-3 Imps.									,This spell summons an evil imp to do the caster's bidding.
+Bless (4,Pri)           Blesses the stack.
+Jihad (4,Sha)           +1 siege, +4 move (group)							,The affected armies want nothing more than to pull down the nearest enemy castle!
+Song of Fortune (4,Brd) +1 leadership, +3 income/city						,This song brings luck to all those who hear it.
+Body Control (4,Mon)    +1 strength, +1 hits, +4 move, +1 view				,With this spell, the caster's body becomes a killing machine.
+Song of Stone (4,Brd)   +1 fortify, +2 engineer								,This song inspires the listener to great feats of building and craftsmanship.
+Phantom Steed (4,Nec/Pal) Flight, +8 move									,This spell summons a steed which will fly the caster great distances.
+Invisibility (4,Nec/Wiz/Ran/Vam) Invisibility								,This spell renders the caster and any units in his stack invisible.
+Dig (4,Pri)             +2 engineer											,This spell increases the casters skill at engineering by 2.
+Wall of Force (3,Wiz/Alc) +1 fortify, +1 morale								,This spell not only makes your troops harder to attack but increases their morale as well.
+Bravery (3,Pal)         +1 morale, +2 move (group)							,This spell lifts the morale of all troops in a stack giving them a Morale Bonus & increasing their movement.
+Chaos Seed (3,Nec)      +1 chaos											,This sows discord amongst your opponents with a +1 Chaos bonus.
+Storm Song (3,Brd)      +2 lightning, +1 chaos								,This song causes heavy clouds to lower over the battlefield.
+Fortify (2,Pri/Sha/Ran/Pal) +1 fortify										,This spell makes a stack hard to attack, giving it a +1 Fortification Bonus.
+Mighty Blow (2,Mon)     +1 trample											,This spell allows the caster to strike mighty blows in combat.
+Haste (2,Pri/Ran)       +4 move (group)										,This spell  increases the movement of all troops in a stack by 4.
+
+Shatter, Dispel Magic will affect any items or spells, even friendly
+ones, excepting items and spells which are owned by the Hero casting the
+Shatter or Dispel Magic spell.  Banishment affects all armies, friendly
+or otherwise, even ones in the current group.
+
+Old Spells:
+Strength (1)            +2 strength, This spell increases the caster's strength by 2
+Flight (4)              Flight,This spell allows a stack to fly with the caster.
+Terror (3)              +1 fear, This causes your opponents to quake in fear with a +1 Fear bonus.

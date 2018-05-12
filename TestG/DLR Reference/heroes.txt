@@ -1,0 +1,81 @@
+#DARKLORDS RISING Version 1.02 HERO LIST
+
+#Hero            Str   Hit   Mov   Vis   Mdl Lea Cha Mor Fea For Sie Eng War Ren
+
+Alchemist       3     1+1/2 18+3  3     -3  1/2             1/1 1/2 2/1
+112233456       Create Golem(6)/1, Teleport(12)/2, Wall of Force(3)/2,
+6/13/25/...     Summon Item(10)/3
+
+Barbarian       6+3/1 2+1/1 20+5  3+2/1 -4  1/2 1/2 1/2
+112334456       Demonslayer/2, Dragonslayer/3, Speed/4
+4/8/16/...
+
+Bard            3+1/1 2     18+3  2     -1  1/1     1/1     1/2
+112233456       Storm Song(3)/1, Song of Battle(5)/1, Song of Life(9)/2,
+6/12/25/...     Song of Stone(4)/2, Song of Fortune(4)/2
+
+General         4     2+1/2 18+4  3+1/1 +14 1/1     1/2     1/2 1/2 1/1     1/2
+112233456       Gnollslayer/1
+4/8/14/...
+
+Monk            4     2     20+4  3     0   1/2                 1/2
+122233456       Mighty Blow(2)/1, Body Control(4)/1, Mind Control(5)/1,
+3/6/12/...      Dwarfslayer/2, Manslayer/2, Critical Strike(8)/3,
+                Wrath of Kali(10)/4
+
+Necromancer     4     1     18+3  3     +5      1/2
+112234456       Chaos Seed(3)/1, Manslayer/1, Necromancy +1/1, Reanimate(6)/2,
+5/10/18/...     Invisibility(4)/2, Phantom Steed(4)/2, Wraithcall(12)/2,
+                Lifesbane(20)/3
+
+Paladin         5     2     18+3  2     +2  1/2     1/1 1/2             1/2
+112234456       Deathslayer/1, Bravery(3)/2, Fortify(2)/2, Phantom Steed(4)/2,
+5/10/18/...     Questing/2
+
+Priest(ess)     3     2     18+3  3     0   1/2     1/2
+112233456       Deathslayer/1, Fortify(2)/1, Haste(2)/1, Bless(4)/2, Dig(4)/2,
+4/8/15/...      Mighty Feast(8)/2, Divine Aid(9)/2
+
+Ranger          5     2+1/1 22+4  3     -2  1/2                         1/3
+112234456       Orcslayer/1, Missiles +3/2, Fortify(2)/2, Haste(2)/2,
+4/8/16/...      Invisibility(4)/2, Speed/4
+
+Shaman          3     2+1/1 19+3  3     -4      1/2     1/2
+112233456       Fortify(2)/1, Augury(8)/2, Jihad(4)/2, Evil Eye(5)/2,
+4/8/15/...      Berserker(14)/3, Flight/3
+
+Summoner        3     2     18+3  2     +3  1/2 1/1
+122334456       Demonslayer/1, Summon Imp(5)/1, Teleport(12)/1,
+4/8/15/...      Summon Hound(7)/2, Minor Demon(10)/3, Greater Demon(13)/4,
+                Demonic Horde(20)/4
+
+Thief           4+1/2 1     22+5  4     -5  1/3 1/2             1/1
+112233456       Assassination +1/1, Move Bonus/1, City Income +5/2,
+5/10/18/...     Invisibility/2, Speed/3
+
+Vampire         8     2+1/1 18+3  3     +3  1/2 1/2     1/1
+112234567       Invisibility(4)/1, Flight/1, Manslayer/2, Mana Drain(5)/3,
+5/10/20/...     Life Drain(14)/3
+
+Warrior         5+2/1 3     18+3  2     -1  1/2     1/2             5/4 1/2 1/1
+112233456       Dragonslayer/2, Demonslayer/2, Dwarfslayer/2
+3/6/12/...
+
+Wizard          3     1     18+3  3     0   1/2
+112334556       Wall of Force(3)/1, Chain Lightning(5)/1, Invisibility(4)/2,
+5/10/16/...     Heroism(6)/2, Banishment(9)/2, Dispel Magic(10)/2, 
+                Teleport(12)/2, Shatter(10)/3
+
+Hero            Str   Hit   Mov   Vis   Mdl Lea Cha Mor Fea For Sie Eng War Ren
+
+Str = Strength              Lea = Leadership            For = Fortification
+Hit = Hits                  Cha = Chaos                 Sie = Siege
+Mov = Movement              Mor = Morale                Eng = Engineering
+Vis = View Range            Fea = Fear                  War = Warding (grp)
+Mdl = Medal Chance Mod                                  Ren = Renown
+
++#/AP, #/AP, Ability/AP, Spell(M)/AP = Increase stat, Increase ability,
+    Gain ability, or Gain spell with specified Mana cost, for specified AP
+    (AP cost to increase Movement is always 1 AP)
+######### = Number of ability points awarded at level 2,3,4,...,10
+#/#/#/... = Experience points for level 2,3,4,...

@@ -1,0 +1,28 @@
+Barracks
+Cave
+Dwarf Castle
+Evil Shrine
+Elven Castle
+Field
+Gold Mine
+Stone Circle
+Knights' Castle
+Monolith
+Old Fort
+Orc Huts
+Port
+Ranger's Tower
+Large Ruin
+Small Ruin
+Good Shrine
+Skull Castle
+Blacksmith
+Stables
+Standard Castle A
+Standard Castle B
+Tomb
+Tower
+Trapdoor
+Treasure Trove
+Weapon Master
+

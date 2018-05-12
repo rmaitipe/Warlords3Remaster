@@ -1,0 +1,11 @@
+* SUMMONING *                                           Turns   Effic
+SPELL Lifesbane (20) Nec/3        Summon many units      20.0    1.00
+SPELL Demonic Horde (20) Sum/4    Summon many units      20.0    1.00  
+SPELL Greater Demon (13) Sum/4    Summon 1-3 Fire Demon   8.0    0.62
+SPELL Wraithcall (12) Nec/2       Summon 1-2 Wraith       4.5    0.38
+SPELL Minor Demon (10) Sum/3      Summon 1-3 Ice Demon    6.0    0.60
+SPELL Divine Aid (9) Pri/2        Summon 1 Archon         4.0    0.44
+SPELL Summon Hound (7) Sum/2      Summon 1-5 Hellhound    3.0    0.43
+SPELL Reanimate (6) Nec/2         Summon 4-8 Skeleton     6.0    1.00
+SPELL Create Golem (6) Alc/1      Summon 1 Clay Golem     2.0    0.33
+SPELL Summon Imp (5) Sum/1        Summon 1-3 Imp          2.0    0.40

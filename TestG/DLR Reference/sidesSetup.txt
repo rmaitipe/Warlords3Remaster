@@ -1,0 +1,45 @@
+* DARKLORDS RISING v1.02 SIDE CONSTRUCTION FORMULAS *
+
+For each choice, compute base cost, then apply applicable modifiers in order.
+
+Army slot 1:   2 * UBASE (*1.5 if DRAGON)
+Army slot 2: 1.5 * UBASE (*1.5 if DRAGON)
+Army slot 3: 1.4 * UBASE (*1.5 if DRAGON)
+Army slot 4: 1.3 * UBASE (*1.5 if DRAGON)
+Army slot 5: 1.2 * UBASE (*1.5 if DRAGON)
+Army slot 6: 1.1 * UBASE (*1.5 if DRAGON)
+Army slot 7:   1 * UBASE (*1.5 if DRAGON)
+Army slot 8:   1 * UBASE (*1.5 if DRAGON)
+(Duplicate penalty: +100 for second use, +200 for third use, etc.)
+
+Merc slot 1:   2 * UBASE (*6 if TIME>1) (*3 if BUILD>1000) (+1000 if DRAGON)
+Merc slot 2:   1 * UBASE (*9 if TIME>2) (*2 if BUILD>1000) (+1000 if DRAGON)
+Merc slot 3: 1/4 * UBASE (*12 if TIME>3) (+1000 if DRAGON)
+(Duplicate penalty: +100 for second use, +200 for third use, etc.)
+
+Ally slot 1:   2 * UBASE (*3 if TIME>3) (*3 if BUILD>1000) (+1000 if DRAGON)
+Ally slot 2:   1 * UBASE (*5 if TIME>4) (*2 if BUILD>1000) (+1000 if DRAGON)
+Ally slot 3: 1/3 * UBASE (+350 if DRAGON)
+Ally slot 4: 1/5 * UBASE
+(Duplicate penalty: +100 for second use, +200 for third use, etc.)
+
+Ship type: (tbd)
+
+Hero slot 1:   1 * HBASE
+Hero slot 2:   1 * HBASE
+Hero slot 3: 1/3 * HBASE
+Hero slot 4: 1/5 * HBASE
+
+Stack Limit: (4,5,6,7,8) => (0,300,500,700,800)
+Mercenaries: 35
+Sell Items:  20
+Start Gold:  1 gold/1 point (500 gold max)
+Mana:        (None,White,Gray,Black) = (35,40,80,40)
+Max Mana:    1 mana/10 points (30 mana max)
+Start Mana:  1 mana/2 points (up to max)
+
+----------------------------------------------------------------
+ UBASE = (Cost to build Unit in city) / 11
+  TIME = (Production time for Unit)
+DRAGON = Any unit with "Dragon" in name
+ HBASE = 8 * (Experience required for Level 2)

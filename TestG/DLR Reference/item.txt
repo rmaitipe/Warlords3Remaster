@@ -1,0 +1,91 @@
+The Silver Armour, Fortify+1, 		This shining armour is so dazzling that it makes its wearer difficult to hit in combat.
+The Black Sword, The Black Sword is a frightful thing to look upon.
+The Blue Orb, The Blue Orb shows so many futures that it is constantly in a chaotic swirl.
+The Cyan Gem, The Cyan Gem fills its bearer with an unholy strength.
+The Green Tome, The Green Tome contains many secrets.
+The Orange Banner, Those who march beneath the Orange Banner travel great distances and in good spirits.
+The Red Bow, It is said that only a true leader can string the Red Bow.
+The White Staff, This ancient staff crackles with power, instilling allies with strength and striking down enemies.
+The Yellow Cross, This cross strengthens the resolve of all who march with it.
+The Axe of Slaying, Strength+2, 	It is said that this axe can cleave straight through an opponent's armour.
+The Banner of Rage, Morale+1, 		This magical banner improves the morale of all those who fight beneath it
+The Blue Key, The Blue Key opens new oportunities for those who hold it bringing them treasures beyond their dreams.
+The Boots of Flying, These boots allow the wearer to fly through the air.
+The Boots of Speed, These magical boots allow the wearer to move with little effort. A hard day's pace will feel like a gentle stroll.
+The Boots Of Kor, Any orc who wears the Boots Of Kor shall lead his armies over great distances.
+Eldor's Bow, This bow can shoot a number of arrows in rapid succession.
+The Hunter's Bow, This strong wooden bow allows one good shot at an approaching enemy
+The Bow of Speed, Not even an elf can fire as many arrows as this bow.
+The Golden Chest, Every time you close this chest it fills with gold again!
+The Cloak of Air, This cloak allows the wearer to fly with the speed of the wind.
+The Shadow Cloak, This dark cloak makes the wearer as insubstantial as a  shadow.
+The Fallen Crown, This very plain looking crown is actually magically endowed.
+The Cross of Power, This religious item strengthens its bearer against all evils
+Bane's Crown, The wearer of this crown can strike down his foes with a glance.
+The Elven Crown, This shining crown inspires all who follow its wearer.
+The Liche's Crown, This crown changes the wearer's face to skull, terrifying his enemy.
+The Selentine Crown, This was the royal crown of Selentia, but was lost 200 years ago.
+The Daggeril Blade, This gem-encrusted blade was made for the Selentine Emperor by the smiths of Daggeril.
+The Dragonblade, This sword, owned by Losryn Dragonslayer, has slain 12 dragons.
+The Figurine of Kor, This ancient Orcish figurine makes the bearer as strong as an Orc Chieftain.
+The Gloves of Skill, These gauntlets can be put to good use building castle walls.
+The Gauntlets of Flight, The person using this item to fly will seem daunting to all enemies.
+The Gem of Boundry, The radiance of this gem strengthens any wall it falls upon.
+The Celethang Gem, This famous glowing emerald inspires the bearer's troops while terrifying his enemy.
+The Gem of Kali, This beautiful gem is the host to some very evil powers
+The Lytestone, This magical diamond not only raises the morale of troops, but shows them a safe path through arduous terrain.
+The Godsword, Many say this was the most powerful sword ever made.  It gives the bearer the strength and charisma of a God.
+The Crown of Grak, The wearer of this crown will increase his men's morale.
+The Eye of Grak, This orb allows the owner to see further than usual.
+The Fist of Grak, This gem allows the owner to strike first in any battle.
+The Mace of Grak, This item is said to only fit the hand of an Orc.
+The Heart of Grak, This gem is able to help its owner to overcome the walls of a city.
+The Purse of Grak, This sack carries more gold than you would expect.
+The Ring of Grak, This ring enhances the wearer's ability to move fast and sure.
+The Shield of Grak, This shield will add not only to a city's defence, but will cause any viewing it to fall back in fear.
+The Wings of Grak, These wings allow their owner to fly.
+The Helm of Command, This ancient helmet increases the wearer's ability to lead troops into combat.
+The Helm of Speed, This winged helmet makes the wearer and their armies to move with the speed of the wind.
+The Horn Of Kor, The Prized Horn Of Kor is a magical horn with the power to make even the most infertile man's kindgom flourish.
+The Horn Of Storm, 
+The Horn of Stone, When blown, the skin of  all friendly armies hardens like stone.
+The Horn of Calling, The person blowing this horn will summon spirits to lift his troops' morale
+The Skeleton Key, This key will help not only to defend a city but also to open an enemy's gates.
+The Entrance Key, This magical key will allow the wielder to weaken any city's defence.
+The Magic Mirror, The Magic Mirror lets its bearer see their surroundings more clearly.
+The Medal of Valor, This medal makes any group of warriors fight as if they were veterans
+The Mirror of Adara, This mirror shows its bearer how to obtain money.
+The Mirror of Pa, Anyone looking into this mirror sees themselves as larger, stronger, more powerful. This is false but it gives much confidence.
+The Orb of Balance, This orb radiates an inspiring blue light while being used.
+The Potion of Flight, One sip of this allows the drinker to soar like an eagle.
+The Potion of Might, This potion increases the drinker's strength
+The Red Eye Gem, This gem is a tribal symbol to the Red Eye Orcs.
+The Elven Ring, The magical sapphire on this ring imbues its wearer with the knowledge of 1,000 victories.
+The Ring of Air, This ring not only renders its wearer invisible, but also allows them to fly.
+The Ring of Life, This increases the health of its wearer, adding +1 to their hits.
+The Ring of Power, The Ring of Power lifts the morale of an army, inspiring them to great deeds.
+The Spider Ring, One touch of this ring can render a victim completely helpless
+The Leveling Ring, Defences crumble as this ring is held aloft.
+The Scroll of Decay, The sight of this scroll causes fearful images of old age to appear in the viewer's mind.
+The Silver Skull, Silver pieces pour from the open mouth of this skull.
+The Talking Skull, This skull is full of good ideas...
+The Stealth Dagger, The person using this dagger will find it faster to strike than any other dagger.
+The Staff Of Selentia, The Staff Of Selentia gives any army great defense.
+Staff Of The Wise Orc, The once wise Orc who owned this staff is said to have passed on his wisdom enabling any army who holds it the same wisdom.
+The Staff of Ruin, Chaos+2,		Wherever it strikes this staff causes nothing but chaos
+The Longing Statue, The figurine you hold wears a cloak decorated with eyes of many shapes and sizes.
+Fire Of Storm, The Fire of the Storm shines light over a wide area.
+The Darksword, The dark blade of this magical sword is constantly dripping with venom.
+The Sword of Light, This shining sword adds to the bearer's strength in battle.
+Mealin's Sword, This sword was forged by an ancient Dwarf smith named Mealin.
+The Sword of Duty, The hilt of this sword is decorated with pictures of armies being led to great conquests.
+The Sword of Sirian, This ancient sword was the first gift from the Dwarfs to the Sirian Knights
+Thalassian Crown, This is the Crown worn by all kings of Thalassia since ancient times.
+Sword of Thalas, The Sword of Thalas crackles with magical energy
+The Mace Of Kor, The Mace Of Kor's power will enable the bearer to crush even the most ferocious of his enemies.
+The Tome of Alfland, This Tome can teach a hero to be a better leader.
+The Grey Tome, This tome tells a reader how to gain strength
+The Orchish Banner, Orcs who stand under the Orchish Banner have the protection of a thousand orcs.
+The Hero's Torch, Leadership+1,		This torch inspires any army that marches behind it.
+The Shining Wand, Leadership+2,		A hero's troops find it easier to move ahead when led by this shining artifact.
+The Wizards Flame, The Wizards Flame belongs to Yhan the wizard of Wizards Isle
