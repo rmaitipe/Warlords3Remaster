@@ -7,6 +7,7 @@ import java.util.Map;
 
 import itemObj.Item;
 import spellObj.Spell;
+import unit.armyUnits.ArmyEnum;
 import unit.base.Unit;
 /* Has 1 Leadership at starting */
 public abstract class HeroUnit extends Unit{
@@ -18,7 +19,7 @@ public abstract class HeroUnit extends Unit{
 	private Map<Spell,Boolean> spellsOwnedMap = new HashMap<Spell,Boolean>();//available vs active /onHero vs onStack vs onFaction
 	
 	//getQuest - dependent on city level
-	public HeroUnit(String unitName, String hName, boolean isGenderFemale) {
+	public HeroUnit(HeroEnum unitName, String hName, boolean isGenderFemale) {
 		super(unitName);
 		if(isGenderFemale){//Unit Portrait changes based on gender
 		heroName=hName;	

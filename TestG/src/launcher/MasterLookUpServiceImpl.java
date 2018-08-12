@@ -15,7 +15,7 @@ import unit.base.Unit;
 import unit.heroUnits.HeroUnit;
 /* This class is for loading and looking up static values from Game like factions/armies/heros/items 
  * need to add Spring  - use applicationContext.xml or implement InitializingBean */
-public class MasterLookUpServiceImpl  implements MasterLookUpService, InitializingBean {
+public class MasterLookUpServiceImpl  implements MasterLookUpService {
 	
 	//Initialize at application Start- has baseObjects//Spring? used by Game Obj
 	private Map<String,List<Faction>> masterFactionsMap;

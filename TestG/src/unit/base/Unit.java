@@ -8,6 +8,7 @@ import java.util.Set;
 import attributes.Effect;
 import mapObj.base.MapObject;
 import unit.armyUnits.ArmyEnum;
+import unit.heroUnits.HeroEnum;
 /* This abstract class represents a base Unit - gets extended by ArmyUnit, HeroUnit
  * Unit stats can be permanently modified by effects, hits can't go below 1*/
 public abstract class Unit extends MapObject{
@@ -16,7 +17,7 @@ public abstract class Unit extends MapObject{
 	private List<Effect> effectSelfList = new ArrayList<Effect>();
 	
 	private Integer unitId;//unique Identifier for each Army Unit
-	private ArmyEnum unitName;
+	private String unitName;
 	private Integer movePoints;
 	private Integer strPoints;
 	private Integer hitPoints;
@@ -29,9 +30,13 @@ public abstract class Unit extends MapObject{
 	private Image unitPortrait;
 
 	public Unit(ArmyEnum code) {
-		unitName =code;
+		unitName =code.name();
 	}
 	
+	public Unit(HeroEnum code) {
+		unitName =code.name();
+	}
+
 	public Image getUnitPortrait() {
 		return unitPortrait;
 	}
@@ -80,11 +85,11 @@ public abstract class Unit extends MapObject{
 		this.manaUpkeep = manaUpkeep;
 	}
 
-	public ArmyEnum getUnitName() {
+	public String getUnitName() {
 		return unitName;
 	}
 
-	public void setUnitName(ArmyEnum unitName) {
+	public void setUnitName(String unitName) {
 		this.unitName = unitName;
 	}
 

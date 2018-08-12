@@ -15,8 +15,23 @@ public class GameMap {
 	//Singleton -Handle Visual display/changes
 	
 	private List<Point> coordList = new ArrayList<Point>();
-	
+	private int mapWidth = 10;
+    private int mapHeight = 10;
+    private int[][] mapTraverse = {
+	        {0,1,1,1,1,1,1,1,1,1},
+	        {1,0,0,0,0,0,1,1,1,1},
+	        {1,0,1,1,1,0,1,1,1,1},
+	        {1,0,1,1,1,0,0,0,1,1},
+	        {1,0,0,0,1,1,1,0,1,1},
+	        {1,1,1,0,1,1,1,0,0,0},
+	        {1,0,1,0,0,0,0,0,1,0},
+	        {1,0,1,1,1,1,1,1,1,0},
+	        {1,0,0,0,0,0,0,0,0,0},
+	        {1,1,1,1,1,1,1,1,1,0}
+	    };
 	public GameMap(Integer xPoint, Integer yPoint){
+		mapWidth=xPoint;
+		mapHeight=yPoint;
 		for (int i=0;i<xPoint;i++){
 			for (int j=0;j<yPoint;j++){
 				Point co = new Point(i,j);
@@ -57,6 +72,30 @@ public class GameMap {
 	public void placeRuins(List<Ruin> ruinList) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	public int getMapWidth() {
+		return mapWidth;
+	}
+
+	public void setMapWidth(int mapWidth) {
+		this.mapWidth = mapWidth;
+	}
+
+	public int getMapHeight() {
+		return mapHeight;
+	}
+
+	public void setMapHeight(int mapHeight) {
+		this.mapHeight = mapHeight;
+	}
+
+	public int[][] getMapTraverse() {
+		return mapTraverse;
+	}
+
+	public void setMapTraverse(int[][] mapTraverse) {
+		this.mapTraverse = mapTraverse;
 	}
 
 }

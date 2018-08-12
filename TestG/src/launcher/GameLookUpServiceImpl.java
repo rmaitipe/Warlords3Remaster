@@ -12,7 +12,7 @@ import sidesObj.Faction;
 import unit.armyUnits.ActiveArmy;
 /* This class is for loading and looking up dynamic values from Game like cities/ruins/sites 
  * need to add Spring  - use applicationContext.xml or implement InitializingBean */
-public class GameLookUpServiceImpl  implements GameLookUpService, InitializingBean {
+public class GameLookUpServiceImpl  implements GameLookUpService {
 	
 	private List<City> cityList;
 	private List<BonusSite> siteList;
