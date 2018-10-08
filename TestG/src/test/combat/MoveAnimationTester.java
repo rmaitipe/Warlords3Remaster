@@ -1,4 +1,4 @@
-package sprite;
+package test.combat;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -13,16 +13,15 @@ import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 
-public class MoveAnimation2 extends JPanel {
+import sprite.Animation;
+import sprite.Sprite;
+
+public class MoveAnimationTester extends JPanel {
     static JButton buttonL = new JButton("W");
     static JButton buttonR = new JButton("E");
     static JButton buttonU = new JButton("N");
     static JButton buttonD = new JButton("S");
     
-//    static JButton buttonNE = new JButton("NE");
-//    static JButton buttonSE = new JButton("SE");
-//    static JButton buttonNW = new JButton("NW");
-//    static JButton buttonSW = new JButton("SW");
     static JButton buttonStop = new JButton("Pause");
     private Timer timer = null;
     private boolean stop = false;
@@ -42,7 +41,7 @@ public class MoveAnimation2 extends JPanel {
         });
     }
     
-    public MoveAnimation2(){
+    public MoveAnimationTester(){
     	Sprite sp =new Sprite("Hero/alchemf");
     	BufferedImage[] standingStill = {sp.getSprite(0, 0, 3, 14)};
     	current = new Animation(standingStill, 10);
@@ -82,8 +81,8 @@ public class MoveAnimation2 extends JPanel {
             	xCoordDelta=3;
             	yCoordDelta=0;
             	Sprite sp =new Sprite("Hero/alchemf");
-            	BufferedImage[] walkingRight = {sp.getSpriteOffset(6, 0), sp.getSpriteOffset(6, 1),
-            		sp.getSpriteOffset(6, 2), sp.getSpriteOffset(6, 3)};
+            	BufferedImage[] walkingRight = {sp.getSpriteOffset(2, 0), sp.getSpriteOffset(2, 1),
+            		sp.getSpriteOffset(2, 2), sp.getSpriteOffset(2, 3)};
             	current = new Animation(walkingRight, 10);
             	current.start();
                 timer.start();              // start timer
@@ -146,7 +145,7 @@ public class MoveAnimation2 extends JPanel {
 		
 	private static void createAndShowGui() {
 	    JFrame frame = new JFrame();
-	    frame.add(new MoveAnimation2(), BorderLayout.CENTER);
+	    frame.add(new MoveAnimationTester(), BorderLayout.CENTER);
 	    frame.add(buttonR, BorderLayout.EAST);
 	    frame.add(buttonL, BorderLayout.WEST);
 	    frame.add(buttonU, BorderLayout.NORTH);

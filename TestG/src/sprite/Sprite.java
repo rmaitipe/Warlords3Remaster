@@ -11,7 +11,7 @@ public class Sprite {
     private BufferedImage spriteSheet;
     private static final int TILE_SIZE = 49;
 
-    Sprite(String file){
+    public Sprite(String file){
     	try {
         	FileInputStream fis = new FileInputStream(new File("resources/art/" + file + ".png"));  
         	spriteSheet = ImageIO.read(fis);
