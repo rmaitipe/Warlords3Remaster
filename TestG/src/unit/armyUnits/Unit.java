@@ -1,4 +1,4 @@
-package unit.base;
+package unit.armyUnits;
 
 import java.awt.Image;
 import java.util.ArrayList;
@@ -6,41 +6,41 @@ import java.util.List;
 import java.util.Set;
 
 import attributes.Effect;
-import mapObj.base.MapObject;
-import unit.armyUnits.ArmyEnum;
-import unit.heroUnits.HeroEnum;
+import enums.ArmyUnitEnum;
+import enums.HeroEnum;
+import enums.MoveBonusEnum;
+import enums.TerrainCombatBonusEnum;
+
 /* This abstract class represents a base Unit - gets extended by ArmyUnit, HeroUnit
  * Unit stats can be permanently modified by effects, hits can't go below 1*/
-public abstract class Unit extends MapObject{
-	
-	private List<Effect> effectStackList = new ArrayList<Effect>(); 
-	private List<Effect> effectSelfList = new ArrayList<Effect>();
-	
-	private Integer unitId;//unique Identifier for each Army Unit
+public abstract class Unit {
+
+	private List<Effect> effectList = new ArrayList<>();
+	private Set<TerrainCombatBonusEnum> terraBonus;// Separate from StackBonus
+	private Set<MoveBonusEnum> moveBonus;// Separate from StackBonus
+
 	private String unitName;
 	private Integer movePoints;
 	private Integer strPoints;
 	private Integer hitPoints;
 	private Integer viewRange;
-	private Set<TerrainCombatBonusEnum> terraBonus;//Separate from StackBonus
-	private Set<MoveBonusEnum> moveBonus;   //Separate from StackBonus
-	private Integer goldUpkeep;
 
+	private Integer goldUpkeep;
 	private Integer manaUpkeep;
 	private Image unitPortrait;
 
-	public Unit(ArmyEnum code) {
-		unitName =code.name();
+	public Unit(ArmyUnitEnum code) {
+		unitName = code.name();
 	}
-	
+
 	public Unit(HeroEnum code) {
-		unitName =code.name();
+		unitName = code.name();
 	}
 
 	public Image getUnitPortrait() {
 		return unitPortrait;
 	}
-	
+
 	public void setUnitPortrait(Image unitPortrait) {
 		this.unitPortrait = unitPortrait;
 	}
@@ -48,23 +48,27 @@ public abstract class Unit extends MapObject{
 	public Integer getMovePoints() {
 		return movePoints;
 	}
+
 	public void setMovePoints(Integer movePoints) {
 		this.movePoints = movePoints;
 	}
+
 	public Integer getStrPoints() {
 		return strPoints;
 	}
+
 	public void setStrPoints(Integer strPoints) {
 		this.strPoints = strPoints;
 	}
+
 	public Integer getHitPoints() {
 		return hitPoints;
 	}
+
 	public void setHitPoints(Integer hitPoints) {
-		if (hitPoints<1){
-			this.hitPoints=1;
-		}
-		else{
+		if (hitPoints < 1) {
+			this.hitPoints = 1;
+		} else {
 			this.hitPoints = hitPoints;
 		}
 	}
@@ -93,14 +97,6 @@ public abstract class Unit extends MapObject{
 		this.unitName = unitName;
 	}
 
-	public Integer getUnitId() {
-		return unitId;
-	}
-
-	public void setUnitId(Integer unitId) {
-		this.unitId = unitId;
-	}
-
 	public Integer getViewRange() {
 		return viewRange;
 	}
@@ -117,20 +113,12 @@ public abstract class Unit extends MapObject{
 		this.moveBonus = moveBonus;
 	}
 
-	public List<Effect> getEffectStackList() {
-		return effectStackList;
+	public List<Effect> getEffectList() {
+		return effectList;
 	}
 
-	public void setEffectStackList(List<Effect> effectStackList) {
-		this.effectStackList = effectStackList;
-	}
-
-	public List<Effect> getEffectSelfList() {
-		return effectSelfList;
-	}
-
-	public void setEffectSelfList(List<Effect> effectSelfList) {
-		this.effectSelfList = effectSelfList;
+	public void setEffectList(List<Effect> effectList) {
+		this.effectList = effectList;
 	}
 
 	public Set<TerrainCombatBonusEnum> getTerraBonus() {

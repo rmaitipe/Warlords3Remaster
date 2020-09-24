@@ -3,8 +3,8 @@ package sidesObj;
 import java.util.HashMap;
 import java.util.Map;
 
-import unit.armyUnits.ArmyEnum;
-import unit.heroUnits.HeroEnum;
+import enums.ArmyUnitEnum;
+import enums.HeroEnum;
 
 public abstract class Faction {
 
@@ -14,9 +14,9 @@ public abstract class Faction {
 	
 	//PreConfigured ArmySet Units+Allies+Mercs+Heros
 	protected Map<Integer,HeroEnum> factHeroMap = new HashMap<Integer,HeroEnum>();
-	protected Map<Integer,ArmyEnum> factAllyMap = new HashMap<Integer,ArmyEnum>();//15
-	protected Map<Integer,ArmyEnum> factMercsMap = new HashMap<Integer,ArmyEnum>();
-	protected Map<Integer,ArmyEnum> factArmyMap  = new HashMap<Integer,ArmyEnum>();
+	protected Map<Integer,ArmyUnitEnum> factAllyMap = new HashMap<Integer,ArmyUnitEnum>();//15
+	protected Map<Integer,ArmyUnitEnum> factMercsMap = new HashMap<Integer,ArmyUnitEnum>();
+	protected Map<Integer,ArmyUnitEnum> factArmyMap  = new HashMap<Integer,ArmyUnitEnum>();
 	
 	public String getFactionName() {
 		return factionName;
@@ -50,27 +50,27 @@ public abstract class Faction {
 		this.factHeroMap = factHeroMap;
 	}
 
-	public Map<Integer, ArmyEnum> getFactAllyMap() {
+	public Map<Integer, ArmyUnitEnum> getFactAllyMap() {
 		return factAllyMap;
 	}
 
-	public void setFactAllyMap(Map<Integer, ArmyEnum> factAllyMap) {
+	public void setFactAllyMap(Map<Integer, ArmyUnitEnum> factAllyMap) {
 		this.factAllyMap = factAllyMap;
 	}
 
-	public Map<Integer, ArmyEnum> getFactMercsMap() {
+	public Map<Integer, ArmyUnitEnum> getFactMercsMap() {
 		return factMercsMap;
 	}
 
-	public void setFactMercsMap(Map<Integer, ArmyEnum> factMercsMap) {
+	public void setFactMercsMap(Map<Integer, ArmyUnitEnum> factMercsMap) {
 		this.factMercsMap = factMercsMap;
 	}
 
-	public Map<Integer, ArmyEnum> getFactArmyMap() {
+	public Map<Integer, ArmyUnitEnum> getFactArmyMap() {
 		return factArmyMap;
 	}
 
-	public void setFactArmyMap(Map<Integer, ArmyEnum> factArmyMap) {
+	public void setFactArmyMap(Map<Integer, ArmyUnitEnum> factArmyMap) {
 		this.factArmyMap = factArmyMap;
 	}
 

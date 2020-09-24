@@ -1,5 +1,5 @@
 package mapObj.searchLoc;
 
-public class Trapdoor extends Ruin {
+public class Trapdoor extends Explorable {
 
 }

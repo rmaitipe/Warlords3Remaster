@@ -1,6 +1,6 @@
-package unit.armyUnits;
+package enums;
 
-public enum ArmyEnum {
+public enum ArmyUnitEnum {
 	GreenDragon,
 	Griffin,
 	Infantry,

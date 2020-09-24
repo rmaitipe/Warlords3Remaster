@@ -3,7 +3,7 @@ package mapObj.cities;
 import java.util.HashMap;
 import java.util.Map;
 
-import enums.other.ManaEnum;
+import enums.ManaEnum;
 import mapObj.base.MapObject;
 import sidesObj.Faction;
 import unit.armyUnits.ArmyUnit;
@@ -11,7 +11,7 @@ import unit.armyUnits.ArmyUnit;
  * Cities has 8 available units but only 4 unit production slots and each of slots must be unlocked if not available
  * On City Conquest, Occupy keeps compatible unit slots and CityLevel, Pillage keeps compatible unit slots and lose 1 CityLevel, and Sack loses all slots and reduce to CityLevel 1.
  * Shrine Bonuses can modify the base unit */
-public class City extends MapObject{
+public class City implements MapObject{
 	private Faction owner;//default value Neutrals
 	private String cityName;
 	private ManaEnum manaType;

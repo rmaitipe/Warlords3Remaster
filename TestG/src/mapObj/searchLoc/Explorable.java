@@ -1,29 +1,29 @@
 package mapObj.searchLoc;
 
-import enums.other.RewardTypeEnum;
+import enums.QuestRewardTypeEnum;
 import mapObj.base.MapObject;
 /* Encountering a Sage gives the choice of reward - Gold, location of Item, location of Allies
  * challengeLevel determines the payout tier
  * */
-public abstract class Ruin extends MapObject{
+public abstract class Explorable implements MapObject{
 	
-	private boolean isRuinInvis;
-	private RewardTypeEnum reward;
+	private boolean isInvisible;
+	private QuestRewardTypeEnum reward;
 	private Integer challengeLevel;
 	
-	public boolean isRuinInvis() {
-		return isRuinInvis;
+	public boolean isInvisible() {
+		return isInvisible;
 	}
 
-	public void setRuinInvis(boolean isRuinInvis) {
-		this.isRuinInvis = isRuinInvis;
+	public void setInvisible(boolean isInvisible) {
+		this.isInvisible = isInvisible;
 	}
 
-	public RewardTypeEnum getReward() {
+	public QuestRewardTypeEnum getReward() {
 		return reward;
 	}
 
-	public void setReward(RewardTypeEnum reward) {
+	public void setReward(QuestRewardTypeEnum reward) {
 		this.reward = reward;
 	}
 

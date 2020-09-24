@@ -1,16 +1,16 @@
-package unit.heroUnits;
+package unit.armyUnits;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import enums.HeroEnum;
 import itemObj.Item;
 import spellObj.Spell;
-import unit.armyUnits.ArmyEnum;
-import unit.base.Unit;
 /* Has 1 Leadership at starting */
 public abstract class HeroUnit extends Unit{
+	
 	private Integer heroLevel;//MaxLevel 10
 	private Integer currentXp;
 	private String heroName;

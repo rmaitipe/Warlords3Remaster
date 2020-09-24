@@ -1,4 +1,4 @@
-package unit.heroUnits;
+package enums;
 
 public enum HeroEnum {
 

@@ -1,18 +1,11 @@
 package launcher;
 
-import java.awt.Point;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-
 import itemObj.Item;
-import mapObj.base.BonusSite;
-import mapObj.cities.City;
-import mapObj.searchLoc.Ruin;
 import sidesObj.Faction;
 import unit.armyUnits.ArmyUnit;
-import unit.base.Unit;
-import unit.heroUnits.HeroUnit;
+import unit.armyUnits.HeroUnit;
 /* This class is for loading and looking up static values from Game like factions/armies/heros/items 
  * need to add Spring  - use applicationContext.xml or implement InitializingBean */
 public class MasterLookUpServiceImpl  implements MasterLookUpService {

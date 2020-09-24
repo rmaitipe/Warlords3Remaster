@@ -5,7 +5,7 @@ import java.util.List;
 import itemObj.Item;
 import mapObj.base.BonusSite;
 import mapObj.cities.City;
-import mapObj.searchLoc.Ruin;
+import mapObj.searchLoc.Explorable;
 import sidesObj.ActiveFaction;
 
 public interface GameLookUpService {
@@ -14,5 +14,5 @@ public interface GameLookUpService {
 	List<City> cityListLookUp(int randSeed, int cityCount, List<ActiveFaction> actFactList,
 			List<BonusSite> siteList2, String gameMode);
 	List<BonusSite> bonusSitesLookUp(int randSeed, int siteCount);
-	List<Ruin> ruinsLookUp(int randSeed, int ruinCount, List<Item> itemList);
+	List<Explorable> ruinsLookUp(int randSeed, int ruinCount, List<Item> itemList);
 }

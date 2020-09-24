@@ -15,7 +15,13 @@ Need tester class to test individual game mechanics
 
 ArmyStack class backed by dataStructure? use LinkedList 
 
-Maybe a factory method to create Units?
+
 switch vs if else ->Switch is faster
 
 Creating seperate classes for units not efficient
+
+Leverage Design Patterns
+Factory for Unit creation?
+AbstractFactory for the same
+Strategy Pattern for movement algorithm changes?
+Observer Pattern for quest completion conditions?

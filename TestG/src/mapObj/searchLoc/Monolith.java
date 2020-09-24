@@ -1,5 +1,5 @@
 package mapObj.searchLoc;
 
-public class Monolith extends Ruin{
+public class Monolith extends Explorable{
 
 }

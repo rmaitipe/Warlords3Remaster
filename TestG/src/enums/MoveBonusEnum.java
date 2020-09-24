@@ -1,4 +1,4 @@
-package unit.base;
+package enums;
 
 public enum MoveBonusEnum {
 	FLYING,

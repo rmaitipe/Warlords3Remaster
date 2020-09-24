@@ -5,7 +5,7 @@ import java.util.List;
 import itemObj.Item;
 import sidesObj.Faction;
 import unit.armyUnits.ArmyUnit;
-import unit.heroUnits.HeroUnit;
+import unit.armyUnits.HeroUnit;
 
 public interface MasterLookUpService {
 	

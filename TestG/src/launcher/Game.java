@@ -8,7 +8,7 @@ import java.util.Map;
 import itemObj.Item;
 import mapObj.base.BonusSite;
 import mapObj.cities.City;
-import mapObj.searchLoc.Ruin;
+import mapObj.searchLoc.Explorable;
 import sidesObj.ActiveFaction;
 import sidesObj.Faction;
 /* This class manages the game session and keeps track of Faction Turns and victory conditions and ends 
@@ -27,7 +27,7 @@ public class Game {
 	List<City> cityList;
 	List<Item> itemList;
 	List<BonusSite> siteList;
-	List<Ruin> ruinList;
+	List<Explorable> ruinList;
 	int turnNumber;
 	
 	public Game(InputGameParam input) {

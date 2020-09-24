@@ -7,7 +7,7 @@ import java.util.List;
 import itemObj.Item;
 import mapObj.base.BonusSite;
 import mapObj.cities.City;
-import mapObj.searchLoc.Ruin;
+import mapObj.searchLoc.Explorable;
 import sidesObj.ActiveFaction;
 //Perlin Noise http://devmag.org.za/2009/04/25/perlin-noise/
 /* This class manages the visual representation of the game. It first generates terrain and then places cities/sites etc..*/
@@ -69,7 +69,7 @@ public class GameMap {
 		return null;
 	}
 
-	public void placeRuins(List<Ruin> ruinList) {
+	public void placeRuins(List<Explorable> ruinList) {
 		// TODO Auto-generated method stub
 		
 	}

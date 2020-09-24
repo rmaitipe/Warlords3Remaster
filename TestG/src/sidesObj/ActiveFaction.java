@@ -2,14 +2,15 @@ package sidesObj;
 
 import java.util.List;
 
-import itemObj.RankEnum;
+import enums.HeroEnum;
+import enums.QuestEnums;
 import launcher.Game;
 import mapObj.cities.City;
+import quest.Quest;
 import unit.armyUnits.ArmyUnit;
+import unit.armyUnits.HeroUnit;
 import unit.base.ArmyStack;
-import unit.heroUnits.General;
-import unit.heroUnits.HeroEnum;
-import unit.heroUnits.HeroUnit;
+import unit.base.HeroFactory;
 
 public class ActiveFaction extends Faction{
 
@@ -118,9 +119,10 @@ public class ActiveFaction extends Faction{
 			HeroUnit hero11 = null;
 			switch(hero1){
 				case General: 
-					boolean isFem = getUInput();//gender+name!!!!
+					boolean isFemale = getUInput();//gender+name!!!!
 					String heroName="Red Kavar";//dummy name
-					hero11 = new General(heroName,isFem);
+					//General(heroName,isFem);
+					hero11 = (HeroUnit) HeroFactory.getUnit(HeroEnum.General,heroName,isFemale);
 					break;
 				default:
 					break;
@@ -150,10 +152,10 @@ public class ActiveFaction extends Faction{
 	}	
 	
 	public void displayQFail(){
-		if (activeQuest.getQuestLevel().equals(RankEnum.Easy)){
+		if (activeQuest.getDifficulty().equals(QuestEnums.EASY)) {
 			blockedQuestTurns=1;
 		}
-		else if (activeQuest.getQuestLevel().equals(RankEnum.Average)){
+		else if (activeQuest.getDifficulty().equals(QuestEnums.AVERAGE)){
 			blockedQuestTurns=2;
 		}
 		else{

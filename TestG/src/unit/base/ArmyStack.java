@@ -5,13 +5,15 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import attributes.Effect;
-import enums.other.RewardTypeEnum;
+import enums.MoveBonusEnum;
+import enums.QuestRewardTypeEnum;
 import itemObj.Item;
 import mapObj.base.MapObject;
-import mapObj.searchLoc.Ruin;
-import unit.heroUnits.HeroUnit;
+import mapObj.searchLoc.Explorable;
+import unit.armyUnits.HeroUnit;
+import unit.armyUnits.Unit;
 
-public class ArmyStack extends MapObject{
+public class ArmyStack implements MapObject{
 	private Integer armyStackId;
 	private Integer effLeadership;//StackEffects Start
 	private Integer effMorale;
@@ -55,14 +57,14 @@ public class ArmyStack extends MapObject{
 	
 	public Integer exploreRuin(ArmyStack heroStack) {//Hero explores alone, but has a Bonus from Stack
 		//encounter
-		Ruin ru = null;//use the lookup service to get the ruin
+		Explorable ru = null;//use the lookup service to get the ruin
 		if (Integer.parseInt(heroStack.toString())>ru.getChallengeLevel()){
-			RewardTypeEnum rwd =ru.getReward();
-			if (rwd==RewardTypeEnum.R_GOLD){}
-			else if (rwd==RewardTypeEnum.R_MANACRYSTALS){}
-			else if (rwd==RewardTypeEnum.R_ITEM){}
-			else if (rwd==RewardTypeEnum.R_ALLIES){}// getfromFactionArmySet
-			else if (rwd==RewardTypeEnum.R_SAGE){}//3 options
+			QuestRewardTypeEnum rwd =ru.getReward();
+			if (rwd==QuestRewardTypeEnum.R_GOLD1){}
+			else if (rwd==QuestRewardTypeEnum.R_MANA2){}
+			else if (rwd==QuestRewardTypeEnum.R_ITEM1){}
+			else if (rwd==QuestRewardTypeEnum.R_ALLIES1){}// getfromFactionArmySet
+			else if (rwd==QuestRewardTypeEnum.R_SAGE_LOCATION){}//3 options
 			// getGold. getItem, getStatIncrease, getAllies, getManaCrys
 			// 
 		}	
@@ -103,7 +105,7 @@ public class ArmyStack extends MapObject{
 		for (Unit uni:this.getUnitList()){
 			if (uni instanceof HeroUnit){
 				for (Item  item: ((HeroUnit) uni).getItemList()){
-					if (!item.getEffectSelfList().isEmpty()){
+					if (!item.getEffectList().isEmpty()){
 						/**/
 					}
 				}
@@ -116,10 +118,7 @@ public class ArmyStack extends MapObject{
 					//isAllFly isInvisible
 					copy.getUnitList().add(uni1);
 				}
-				for (Effect effect: uni.getEffectStackList()){
-					
-				}
-				for (Effect effect: uni.getEffectSelfList()){
+				for (Effect effect: uni.getEffectList()){
 					
 				}
 			}

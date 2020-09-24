@@ -1,7 +1,7 @@
 package unit.armyUnits;
 
-import unit.base.Unit;
-/* This abstract class represents a Army Unit - can be Producible Units/Mercs/Allies */
+import enums.ArmyUnitEnum;
+/* This abstract class represents a Non Hero i.e. Army Unit - can be Units/Mercs/Allies */
 public abstract class ArmyUnit extends Unit {
 	
 	private Integer prodTurns=1;
@@ -9,7 +9,7 @@ public abstract class ArmyUnit extends Unit {
 	private boolean isInvisible;
 	private boolean isSummoned;
 	
-	public ArmyUnit(ArmyEnum code) {
+	public ArmyUnit(ArmyUnitEnum code) {
 		super(code);
 	}
 

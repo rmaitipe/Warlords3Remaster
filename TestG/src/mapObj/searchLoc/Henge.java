@@ -1,5 +1,5 @@
 package mapObj.searchLoc;
 
-public class Henge extends Ruin {
+public class Henge extends Explorable {
 
 }

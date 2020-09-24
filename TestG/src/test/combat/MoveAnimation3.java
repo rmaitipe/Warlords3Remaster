@@ -1,14 +1,11 @@
-package sprite;
+package test.combat;
 
 import java.awt.BorderLayout;
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
 import java.util.List;
 
@@ -19,6 +16,9 @@ import javax.swing.SwingUtilities;
 import javax.swing.Timer;
 
 import launcher.GameMap;
+import sprite.AStarMoveAnimation2;
+import sprite.Animation;
+import sprite.Sprite;
 
 public class MoveAnimation3 extends JPanel {
     private Timer timer = null;
